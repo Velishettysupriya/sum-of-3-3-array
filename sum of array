@@ -1,0 +1,10 @@
+#include<stdio.h>
+void main()
+{
+int A[]=[10, 20, 30, 40, 50];
+int *ptr,i,sum=0;
+ptr=A;
+for(i=0;i<5;i++)
+sum += *(ptr+i);
+printf("sum of narray elements : %d",sum);
+}
